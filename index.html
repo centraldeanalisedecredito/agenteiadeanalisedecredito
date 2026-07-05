@@ -282,18 +282,18 @@
     setStep(1);
 
     showTyping(() => {
-      appendMessage("Olá! Me chamo Luciana e sou a atendente de IA do agente CityCredi do estado da Paraíba.", true);
+      appendMessage("Olá! Me chamo Luciana e sou a atendente de IA CityCredi do estado da Paraíba.", true);
     }, true);
 
     setTimeout(() => {
       showTyping(() => {
-        appendMessage("Vou te ajudar a realizar sua análise de crédito de forma rápida, segura e sem compromisso.");
+        appendMessage("Como Parceiros Oficiais do programa Financia Paraíba, analisaremos seu crédito dentro do ambiente seguro, de maneira rápida e eficaz.");
       });
     }, 3500);
 
     setTimeout(() => {
       showTyping(() => {
-        appendMessage("Para iniciarmos esta etapa, por favor me informe:<br><strong>Qual é o seu nome completo e sua data de nascimento?</strong>");
+        appendMessage("Para iniciarmos esta etapa, por favor me informe:<br><strong>Nome Completo e sua Data de Nascimento?</strong>");
         inputContainer.innerHTML = `
           <div class="input-area">
             <input type="text" id="nome" placeholder="Digite seu nome completo" value="${data.nome || ""}" />
